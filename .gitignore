@@ -1,0 +1,18 @@
+# Environment (secrets)
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+bot.log
+
+# Temp / test
+test-webhook.json
+node_modules/
+
+# IDE
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

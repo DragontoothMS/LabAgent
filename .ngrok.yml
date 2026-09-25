@@ -1,0 +1,5 @@
+# ngrok para Laboratorio Bot
+# Domain: hungerless-uncrystalled-andy.ngrok-free.dev (static free tier)
+
+NGROK_DOMAIN=hungerless-uncrystalled-andy.ngrok-free.dev
+NGROK_PORT=3458

@@ -1,0 +1,16 @@
+{
+  "name": "laboratorio-recetas",
+  "version": "1.0.0",
+  "description": "WhatsApp bot - recetas medicas manuscritas (letras de doctor) via Kapso CLI, OCR + IA, conexion Supabase",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test:vitals": "node test-vitals.js",
+    "test:ocr": "node test-ocr.js",
+    "test:kapso": "node test-kapso.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
