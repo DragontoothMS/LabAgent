@@ -18,7 +18,7 @@ const PORT = process.env.PORT || 3458;
 const KAPSO_API_KEY = process.env.KAPSO_API_KEY || '';
 const PHONE_NUMBER_ID = process.env.PHONE_NUMBER_ID || '';
 const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY || '';
-const AI_MODEL = process.env.AI_MODEL || 'poolside/laguna-s-2.1:free';
+const AI_MODEL = process.env.AI_MODEL || 'google/gemma-4-26b-a4b-it:free';
 
 const conversations = new Map();
 const MAX_HISTORY = 10;
